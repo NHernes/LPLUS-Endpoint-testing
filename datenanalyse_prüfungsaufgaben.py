@@ -270,7 +270,7 @@ def aufgabenanzahl_pro_fb_semester():
         html=html+ende
         print(html,"\n\n")
         
-def freitext_antworten():
+def freitext_antworten_bepunktet():
     aufgabentypen={"TextOnly":0}
     zähler_fächer=0
     zähler_lizenzen=0
@@ -310,4 +310,3 @@ def freitext_antworten():
     print(f"Essay tasks total: {zähler_freitext_gesamt}, essay tasks graded: {zähler_freitext_bepunktet}, essay tasks not graded: {zähler_freitext_unbepunktet}, subjects with at least one graded essay task: {zähler_fächer}, licenses with at least one graded essay task: {zähler_lizenzen}")
 
 
-freitext_antworten()
